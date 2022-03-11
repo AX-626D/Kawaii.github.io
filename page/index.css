@@ -1,0 +1,80 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+#titulo {
+    display: flex;
+    color: rgb(255, 215, 215);
+    padding: 1px;
+    font-size: 3em;
+    top: 1cm;
+    left: 1cm;
+
+}
+#buscar {
+    position: absolute;
+    white-space: nowrap;
+    top: 15px;
+    left: 6cm;
+    height: 1.5cm;
+    width: 10cm;
+    
+    
+}
+
+.barra {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    white-space: nowrap;
+    padding: 1px;
+    margin: 1px;
+    
+}
+
+
+button { 
+    background-color: #ffd0e7; 
+    width: 100%;
+     color: rgb(255, 255, 255); 
+     padding: 15px; 
+     margin: 10px 0px; 
+     border: none; 
+     cursor: pointer; 
+      } 
+form { 
+     border: 5px solid #77b0ca; 
+ } 
+input[type=text], input[type=password] { 
+     width: 100%; 
+     margin: 8px 0;
+     padding: 12px 20px; 
+     display: inline-block; 
+     border: 2px solid rgb(252, 168, 200); 
+     box-sizing: border-box; 
+ }
+button:hover { 
+     opacity: 0.7; 
+ } 
+.cancelbtn { 
+     width: auto; 
+     padding: 10px 18px;
+     margin: 10px 5px;
+ } 
+
+
+.formulario { 
+     padding: 25px; 
+     background-color: lightblue;
+ } 
+
+
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    white-space: nowrap;
+    bottom: 1cm;
+}
